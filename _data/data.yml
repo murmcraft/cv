@@ -1,0 +1,241 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Marita Isokallio
+    tagline: Bioinformatician
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: marita.isokallio@gmail.com
+    phone: 050 382 0402
+    linkedin: marita-isokallio
+
+    skills:
+      - item: Bash scripting
+        level: Excellent
+
+      - item: BCFtools
+        level: Excellent
+
+      - item: R, Plink
+        level: Good
+
+      - item: LoFreq, BWA, SAMtools
+        level: Good
+
+      - item: Python, Hail
+        level: Basic
+
+      - item: GATK, WDL
+        level: Basic
+
+      - item: Google cloud
+        level: Beginner
+
+      - item: Java, SQL, HTML
+        level: Beginner
+
+
+    interests:
+      - item: DNA sequencing
+      - item: Genomics
+      - item: Data quality control
+      - item: Pipeline development
+      - item: Testing & documentation
+
+    languages:
+      - idiom: Finnish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: German
+        level: Beginner
+
+career-profile:
+    title: Summary
+    summary: |
+      I am molecular biologist by training, but during my PhD I specialized in 
+      high-throughput DNA sequencing and conducted the projects **from mouse dissections 
+      to automated bioinformatic data analyses**. 
+      My current position as a full-time bioinformatician has further introduced me 
+      to human genetics, development of high-performance computing pipelines and 
+      cloud environment. **I am highly motivated to work on DNA sequencing, 
+      data quality control, pipeline development and automation as well as 
+      testing and documentation**. 
+
+      Furthermore, the bioinformatic work has sparked **irreversible interest in programming**: 
+      on my free time I participate in Girl's coding club, Mimmit koodaa events or 
+      online courses to learn e.g. Python, SQL and HTML. 
+      I've applied the new skills to develop my own small apps and to build my 
+      [crochet blog site][].
+
+      [crochet blog site]: https://murmcraft.github.io
+
+education:
+    - degree: Dr. rer. nat. (Genetics)
+      university: University of Cologne, Germany
+      time: 2014 - 2017
+      details: |
+
+    - degree: MSc (Tech. with Distinction) in Environmental Biotechnology and Food Microbiology
+      university: Tampere University of Technology
+      time: 2004 - 2012
+      details: 
+          - environmental bioengineering
+          - food microbiology
+
+experiences:
+    - role: Bioinformatician
+      time: 2017 - Present
+      company: FinnGen Sequencing Informatics Team, FIMM
+      details: |
+        I currently work as a bioinformatician in FinnGen project (<https://www.finngen.fi/en>). 
+        We develop and test genotype data processing and analysis workflows 
+        for high-throughput computational pipelines required to genotype 500 000 Finns. 
+        
+        My tasks focus on whole genome sequencing (WGS) and 
+        chip genotype **data quality control** and data formats as well as 
+        **developing and testing** the outcomes and behavior of **imputation pipeline modules**. 
+        Additionally, I work on mitochondrial genotype data quality control.
+
+
+    - role: PhD student
+      time: 2014 - 2017
+      company: Max Planck Institute for Biology of Ageing, Cologne, Germany
+      details: |
+        My PhD projects focused on **detection of mouse mitochondrial DNA (mtDNA) variants with next-generation sequencing (NGS)**.
+        I optimized the mtDNA extraction and Illumina HiSeq sequencing protocols such that it was possible to 
+        reliably identify extremely rare variants. For reproducibility, **I scripted the data analysis into an automated pipeline**. 
+
+        The method was applied in projects utilizing mtDNA mutator mouse model to
+          - identify mitochondrial genome regions essential for replication and transcription
+          - clarify the developmental timing of mtDNA purifying selection 
+          - understand the effect of mtDNA variants on mtRNA processing.
+
+        **PhD thesis:**
+
+        [The source and fate of mitochondrial DNA mutations using high-sensitivity next-generation sequencing technologies][],
+        Universität zu Köln (2017) 
+
+        [The source and fate of mitochondrial DNA mutations using high-sensitivity next-generation sequencing technologies]: https://kups.ub.uni-koeln.de/7941/
+
+    - role: Research Assistant
+      time: 2011 - 2013
+      company: Department of Food Hygiene and Environmental Health, University of Helsinki
+      details: |
+        I studied cold tolerance and gene regulation mechanisms of food-borne pathogens (Biosafety level 2). 
+        I utilized various growth conditions, created mutant strains and measured the cold tolerance in
+        microarray and qPCR experiments. I conducted both sides of the projects - **the lab work and the data 
+        analysis in R**. The projects were reported in two publications and as my master's thesis.
+
+projects:
+    title: Protocols
+    intro: >
+      Publically available protocols and datasets:
+    assignments:
+      - title: SISu v3 imputation reference panel 
+        link: "https://thl.fi/es/web/thl-biobank/for-researchers/sample-collections/thl-biobank-imputation-reference-panel"
+        tagline: "WGS imputation reference panel for Finns partially available at THL Biobank."
+
+      - title: Genome build version lift-over
+        link: "https://doi.org/10.17504/protocols.io.nqtddwn"
+        tagline: "A protocol to lift-over legacy chip genotyping data to the GRCh38/hg38 build version."
+
+      - title: Genotype imputation
+        link: "https://doi.org/10.17504/protocols.io.nmndc5e"
+        tagline: "A protocol for chip genotype imputation with the WGS reference panel."
+
+      - title: Rare variant detection from mtDNA
+        link: "https://doi.org/10.17504/protocols.io.nfkdbkw"
+        tagline: "A protocol for variant calling from mitochondrial DNA sequencing data."
+
+      - title: Isolation of high-quality mtDNA from mouse tissues
+        link: "https://doi.org/10.17504/protocols.io.mycc7sw"
+        tagline: "A protocol for isolation of high-quality mitochondrial DNA from mouse tissues suitable for sensitive applications."
+
+publications:
+    title: Publications
+    intro: |
+
+    papers:
+      - title: Mitochondrial stress response triggered by defects in protein synthesis quality control
+        authors: Richter U., Ng K.Y., Suomi F., Marttinen P., Turunen T., Jackson C., Suomalainen A., Vihinen H., Jokitalo E., Nyman T.A., Isokallio M.A., Stewart J.B., Mancini C., Brusco A., Seneca S., Lombes A., Taylor R.W., Battersby B.J.
+        conference: Life Science Alliance (2019)
+        link: https://doi.org/10.26508/lsa.201800219
+
+      - title: Base-excision repair deficiency alone or combined with increased oxidative stress does not increase mtDNA point mutations in mice
+        authors: Kauppila J.H.K., Bonekamp N.A., Mourier A., Isokallio M.A., Just A., Kauppila T.E.S., Stewart J.B. & Larsson, N.-G.
+        conference: Nucleic Acid Research (2018)
+        link: https://doi.org/10.1093/nar/gky456
+
+      - title: Transcriptomic Analysis of (Group I) Clostridium botulinum ATCC 3502 Cold Shock Response
+        authors: Dahlsten E., Isokallio M., Somervuo P., Lindström M. & Korkeala H.
+        conference: PLoS One (2014)
+        link: https://doi.org/10.1371/journal.pone.0089958
+
+      - title: The two-component system CBO2306/CBO2307 is important for cold adaptation of Clostridium botulinum ATCC 3502
+        authors: Derman Y., Isokallio M., Lindström M. & Korkeala H. 
+        conference: International Journal of Food Microbiology (2013)
+        link: https://doi.org/10.1016/j.ijfoodmicro.2013.06.00
+
+conferences:
+    title: Conference posters
+    intro: |
+
+    posters:
+      - title: Identification of regions essential for mitochondrial DNA replication and transcription
+        authors: Isokallio M.A, Singh L.M.R. & Stewart J.B.
+        conference: International Meeting on Mitochondrial Pathology, EUROMIT, Cologne, Germany, 2017
+
+      - title: Detecting purifying selection of mitochondrial DNA using a simple Next-Generation Sequencing protocol
+        authors: Isokallio M.A. & Stewart J.B.
+        conference: Genomic Data-Driven Medicine, AGD e.V., Potsdam, Germany, 2016
+
+      - title: Detecting purifying selection of mitochondrial DNA using a simple Next-Generation Sequencing protocol
+        authors: Isokallio M.A. & Stewart J.B.
+        conference: European Conference on Computational Biology, ECCB, Hague, Netherlands, 2016
+
+      - title: The role of two-component system CBO2306/CBO2307 on Clostridium botulinum ATCC 3502 gene expression at low temperatures
+        authors: Isokallio M., Derman Y., Dahlsten E., Lindström M. & Korkeala H.
+        conference: 7th International Conference on Gram-Positive Microorganisms, Monte-Catini Terme, Italy, 2013
+
+      - title: The effect of EvgS/EvgA two-component system on Yersinia pseudotuberculosis IP32953 gene expression at low temperatures
+        authors: Isokallio M., Palonen E., Keto-Timonen R., Lindström M. & Korkeala H.
+        conference: FoodMicro, the 23rd International ICFMH Symposium, Istanbul, Turkey, 2012
+
+honors:
+    title: Honors & awards
+    intro: |
+
+    awards:
+      - title: Young researcher grant (one year, 26500 €)
+        authors: Emil Aaltonen Foundation (2016)
+
+      - title: Travel grant (940 €)
+        authors: Deutscher Akademischer Austauschdienst, DAAD (2016)
+
+      - title: Scholar participant on Bioinformatics Summer course
+        authors: University of Sao Paulo, Brazil (2014)
+
+      - title: Travel grant (800 €)
+        authors: The Finnish Veterinary Foundation (2013)
+
+      - title: Travle grant (1000 €)
+        authors: The Finnish Food Research Foundation (2012)
+
+      - title: Internship in Italy (900 €)
+        authors: Finnish Foundation for Technology Promotion (2009)
+
+      - title: Summer Scholarship (2700 €)
+        authors: BioMediTech, University of Tampere (2007)
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
