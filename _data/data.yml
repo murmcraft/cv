@@ -75,7 +75,7 @@ career-profile:
       on my free time I participate in Girl's coding club, Mimmit koodaa events or 
       online courses to learn e.g. Python, SQL and HTML. 
       I've applied my newly acquired skills to develop my own small apps and to build my 
-      [crochet blog site][]{:target="_blank.
+      [crochet blog site][]{:target="_blank"}.
 
       [crochet blog site]: https://murmcraft.github.io 
 
@@ -97,7 +97,7 @@ experiences:
       time: 2017 - Present
       company: FinnGen Sequencing Informatics Team, FIMM
       details: |
-        Currently I work as a bioinformatician in FinnGen project (<https://www.finngen.fi/en>). 
+        Currently I work as a bioinformatician in [FinnGen project][]{:target="_blank"}. 
         We develop and test genotype data processing and analysis workflows 
         for high-throughput computational pipelines required to genotype 500 000 Finns. 
         
@@ -106,6 +106,7 @@ experiences:
         **developing and testing** the outcomes and behavior of **imputation pipeline modules**. 
         Additionally, I work on mitochondrial genotype data quality control.
 
+        [FinnGen project]: <https://www.finngen.fi/en>
 
     - role: PhD student
       time: 2014 - 2017
@@ -123,7 +124,7 @@ experiences:
         **PhD thesis:**
 
         [The source and fate of mitochondrial DNA mutations using high-sensitivity next-generation sequencing technologies][]{:target="_blank"},
-        Universität zu Köln (2017) <i class="fa fa-external-link-alt"></i>
+        Universität zu Köln (2017)
 
         [The source and fate of mitochondrial DNA mutations using high-sensitivity next-generation sequencing technologies]: https://kups.ub.uni-koeln.de/7941/
 
