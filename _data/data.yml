@@ -30,10 +30,10 @@ sidebar:
         level: Good
 
       - item: Python, Hail
-        level: Basic
+        level: Beginner
 
       - item: GATK, WDL
-        level: Basic
+        level: Beginner
 
       - item: Google cloud
         level: Beginner
@@ -74,10 +74,10 @@ career-profile:
       Furthermore, the bioinformatic work has sparked **irreversible interest in programming**: 
       on my free time I participate in Girl's coding club, Mimmit koodaa events or 
       online courses to learn e.g. Python, SQL and HTML. 
-      I've applied the new skills to develop my own small apps and to build my 
-      [crochet blog site][].
+      I've applied my newly acquired skills to develop my own small apps and to build my 
+      [crochet blog site][]{:target="_blank"}.
 
-      [crochet blog site]: https://murmcraft.github.io
+      [crochet blog site]: https://murmcraft.github.io 
 
 education:
     - degree: Dr. rer. nat. (Genetics)
@@ -97,7 +97,7 @@ experiences:
       time: 2017 - Present
       company: FinnGen Sequencing Informatics Team, FIMM
       details: |
-        I currently work as a bioinformatician in FinnGen project (<https://www.finngen.fi/en>). 
+        Currently I work as a bioinformatician in FinnGen project (<https://www.finngen.fi/en>). 
         We develop and test genotype data processing and analysis workflows 
         for high-throughput computational pipelines required to genotype 500 000 Finns. 
         
@@ -122,7 +122,7 @@ experiences:
 
         **PhD thesis:**
 
-        [The source and fate of mitochondrial DNA mutations using high-sensitivity next-generation sequencing technologies][],
+        [The source and fate of mitochondrial DNA mutations using high-sensitivity next-generation sequencing technologies][]{:target="_blank"},
         Universität zu Köln (2017) 
 
         [The source and fate of mitochondrial DNA mutations using high-sensitivity next-generation sequencing technologies]: https://kups.ub.uni-koeln.de/7941/
@@ -184,7 +184,7 @@ publications:
       - title: The two-component system CBO2306/CBO2307 is important for cold adaptation of Clostridium botulinum ATCC 3502
         authors: Derman Y., Isokallio M., Lindström M. & Korkeala H. 
         conference: International Journal of Food Microbiology (2013)
-        link: https://doi.org/10.1016/j.ijfoodmicro.2013.06.00
+        link: https://doi.org/10.1016/j.ijfoodmicro.2013.06.004
 
 conferences:
     title: Conference posters
@@ -228,7 +228,7 @@ honors:
       - title: Travel grant (800 €)
         authors: The Finnish Veterinary Foundation (2013)
 
-      - title: Travle grant (1000 €)
+      - title: Travel grant (1000 €)
         authors: The Finnish Food Research Foundation (2012)
 
       - title: Internship in Italy (900 €)
