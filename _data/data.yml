@@ -80,7 +80,7 @@ career-profile:
       [crochet blog site]: https://murmcraft.github.io 
 
 education:
-    - degree: Dr. rer. nat. (Genetics)
+    - degree: PhD (Dr. rer. nat., Genetics)
       university: University of Cologne, Germany
       time: 2014 - 2017
       details: |
@@ -108,7 +108,7 @@ experiences:
 
         [FinnGen project]: <https://www.finngen.fi/en>
 
-    - role: PhD student
+    - role: Doctoral student
       time: 2014 - 2017
       company: Max Planck Institute for Biology of Ageing, Cologne, Germany
       details: |
@@ -121,7 +121,7 @@ experiences:
           - clarify the developmental timing of mtDNA purifying selection 
           - understand the effect of mtDNA variants on mtRNA processing.
 
-        **PhD thesis:**
+        **Doctoral thesis:**
 
         [The source and fate of mitochondrial DNA mutations using high-sensitivity next-generation sequencing technologies][]{:target="_blank"},
         Universität zu Köln (2017)
